@@ -11,5 +11,4 @@ class Settings(BaseSettings):
 
     output_folder: Path = Path(__file__).parents[2] / "output"
 
-    # NB: Secret
     desi_db_password: str
